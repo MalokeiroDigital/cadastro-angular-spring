@@ -1,0 +1,9 @@
+CREATE TABLE conexaomysql;
+USE conexaomysql;
+	CREATE TABLE pessoa (
+	id INT NOT NULL PRIMARY KEY AUTO_INCREMENT,
+    nome VARCHAR(200) NOT NULL
+) ENGINE InnoDB;
+
+SELECT * FROM pessoa;
+
